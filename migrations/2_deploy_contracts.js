@@ -1,5 +1,5 @@
-const Token = artifacts.require("Token");
+const Flashloan = artifacts.require('Flashloan')
 
-module.exports = function(deployer) {
-  deployer.deploy(Token);
-};
+module.exports = function (deployer) {
+  deployer.deploy(Flashloan)
+}
